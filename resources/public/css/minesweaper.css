@@ -1,0 +1,82 @@
+
+.ms-grid-paused {
+    box-shadow: 0px 0px 15px 3px yellow;
+}
+
+.ms-grid-started {
+    box-shadow: 0px 0px 15px 3px steelblue;
+}
+
+.ms-grid-game-over {
+    box-shadow: 0px 0px 15px 3px crimson;
+}
+
+.ms-grid-victory {
+    box-shadow: 0px 0px 15px 3px lime;
+}
+
+.ms-cell {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid #999999;
+    font-family: monospace;
+}
+
+.ms-cell:hover {
+    background-color: #ddffff;
+}
+
+.ms-cell-hidden {
+    background-color: #eeeeee;
+}
+
+.ms-cell-unhidden {
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+.ms-cell-flagged {
+    background-image: url("../img/flag.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ms-cell-mine {
+    background-image: url("../img/mine.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ms-cell-neighbour-1 {
+    color: blue;
+}
+
+.ms-cell-neighbour-2 {
+    color: green;
+}
+
+.ms-cell-neighbour-3 {
+    color: red;
+}
+
+.ms-cell-neighbour-4 {
+    color: darkblue;
+}
+
+.ms-cell-neighbour-5 {
+    color: firebrick;
+}
+
+.ms-cell-neighbour-6 {
+    color: darkcyan;
+}
+
+.ms-cell-neighbour-7 {
+    color: magenta;
+}
+
+.ms-cell-neighbour-8 {
+    color: black;
+}

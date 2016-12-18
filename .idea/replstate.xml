@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ReplState" timestamp="1481647897827">{:repl-history {:ide [], :local [&quot;(ns minesweaper.repl\n  (:require [figwheel-sidecard.repl.api :refer :all]))&quot; &quot;(ns minesweaper.repl\n  (:require [figwheel-sidecar.repl.api :refer :all]))&quot; &quot;(ns minesweaper.repl\n  (:require [figwheel-sidecar.repl-api :refer :all]))&quot; &quot;(start-figwheel!)&quot; &quot;(cljs-repl)&quot;], :remote []}}</component>
-</project>
